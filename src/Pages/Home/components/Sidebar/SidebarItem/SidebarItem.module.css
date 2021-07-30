@@ -1,0 +1,23 @@
+.sidebarItem{
+    display:flex;
+    align-items:center;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+   
+}
+
+.sidebarItem:hover{
+    background:lightgrey;
+    border-radius: 10px;
+}
+
+.sidebarItem >h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebarItem>.icon{
+    
+    color: #2e81f4;
+}
